@@ -1,0 +1,46 @@
+GET ALL: REQUEST: GET, URL: /teams
+
+POST: {
+  REQUEST: POST,
+  URL: /teams
+  Keys: {
+    name: String
+    seasons: Number
+    championships: Number
+}
+
+DELETE ALL: REQUEST: DELETE, URL: /teams
+
+GET ONE: REQUEST: GET, URL: /teams/team-name (ex. /teams/toronto-raptors)
+
+PUT: {
+
+REQUEST: PUT,
+URL: /teams/team-name (ex. /teams/toronto-raptors)
+
+Keys: {
+
+name: String
+seasons: Number
+championships: Number
+
+}
+
+}
+
+PATCH: {
+
+REQUEST: PATCH,
+URL: /teams/team-name (ex. /teams/toronto-raptors)
+
+Keys: {
+
+name: String
+seasons: Number
+championships: Number
+
+}
+
+}
+
+DELETE ONE: REQUEST: DELETE, URL: /teams/team-name (ex. /teams/toronto-raptors)
